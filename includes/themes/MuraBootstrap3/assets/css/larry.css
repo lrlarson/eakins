@@ -1,0 +1,80 @@
+.arrow {
+  border-left: 15px solid rgba(0, 0, 0, 0);
+  border-right: 15px solid rgba(0, 0, 0, 0);
+  border-top: 18px solid #89381d;
+  content: "";
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: -15px;
+  transform: rotate(180deg);
+  width: 0;
+  margin: 0 0 0 -15px;
+}
+.bg-after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+/* Custom Variables */
+@font-face {
+  font-family: 'franklingothicbookcregular';
+  src: url('../fonts/franklingothicbookc_18552-webfont.eot');
+  src: url('../fonts/franklingothicbookc_18552-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/franklingothicbookc_18552-webfont.woff') format('woff'), url('../fonts/franklingothicbookc_18552-webfont.ttf') format('truetype'), url('../fonts/franklingothicbookc_18552-webfont.svg#franklingothicbookcregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?-u43q8p');
+  src: url('../fonts/icomoon.eot?#iefix-u43q8p') format('embedded-opentype'), url('../fonts/icomoon.woff?-u43q8p') format('woff'), url('../fonts/icomoon.ttf?-u43q8p') format('truetype'), url('../fonts/icomoon.svg?-u43q8p#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-svg:before {
+  content: "\e600";
+}
+.icon-svg2:before {
+  content: "\e601";
+}
+.icon-twitter:before {
+  content: "\e60d";
+}
+.icon-facebook:before {
+  content: "\e60e";
+}
+@-webkit-viewport {
+  width: device-width;
+}
+@-moz-viewport {
+  width: device-width;
+}
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}
+* {
+  font-size: 100%;
+}
+html {
+  font-size: 118.8%;
+}
